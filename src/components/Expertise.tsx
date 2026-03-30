@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faReact, faGithub, faPhp} from '@fortawesome/free-brands-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faPhp, faReact} from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -47,7 +47,7 @@ function Expertise() {
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsFirst.map((label, index) => (
-                                <Chip key={index} className='chip' label={label} />
+                                <Chip key={index} className='chip' label={label}/>
                             ))}
                         </div>
                     </div>
@@ -65,7 +65,7 @@ function Expertise() {
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsSecond.map((label, index) => (
-                                <Chip key={index} className='chip' label={label} />
+                                <Chip key={index} className='chip' label={label}/>
                             ))}
                         </div>
                     </div>
